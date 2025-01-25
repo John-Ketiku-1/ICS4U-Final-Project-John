@@ -6,7 +6,7 @@ import { enemyType, row, TilePosition, directionEnum } from '../game.interfaces'
 import * as consts from "../Utils/consts"
 import { Utils } from '../Utils/utils'
 import { Tilemaps } from 'phaser'
-import { scene } from '../App' 
+import { scene } from '../App' 
 
 export class EnemyHandler {
     

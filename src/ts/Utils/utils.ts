@@ -42,5 +42,4 @@ export class Utils {
         return Math.random() * (max - min) + min;
     }
 
-
 }
