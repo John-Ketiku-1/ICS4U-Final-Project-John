@@ -9,7 +9,7 @@ app.use('/dist', express.static(path.join(__dirname, '/dist')));
 app.use('/assets', express.static(path.join(__dirname, '/assets')));
 
 app.get('/', function(req,res){
-  res.sendFile(__dirname + "/views/index.html");
+  res.sendFile(__dirname + "/docs/index.html");
 })
 
 app.listen(port, function(){
