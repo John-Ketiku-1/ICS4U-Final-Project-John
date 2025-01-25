@@ -14,7 +14,7 @@ import path from 'path';
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
 
 export default {
-    input: 'src/main.ts',
+    input: 'src/ts/App.ts',
     output: {
         file: './dist/bundle.js',
         name: 'PhaserTemplate',
