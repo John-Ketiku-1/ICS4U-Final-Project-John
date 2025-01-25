@@ -41,22 +41,22 @@ export class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('background', 'assets/background.jpeg');
-    this.load.image('goal', 'assets/goal.png');
-    this.load.image('froggertitle', 'assets/froggerTitle.png');
-    this.load.image('GameOverScreen', 'assets/gameOverScreen.png');
-    this.load.image('RetryButton', 'assets/RetryButton.png');
-    this.load.image('log1', 'assets/log1.png');
-    this.load.image('log2', 'assets/log2.png');
-    this.load.image('log3', 'assets/log3.png');
-    this.load.image('life', 'assets/life.png');
-    this.load.image('bug_goal', 'assets/bug_goal.png');
-    this.load.image("truck", "assets/truck.png");
-    this.load.spritesheet("ladybug", "assets/ladybug.png", consts.DEFAULT_TILE_SIZE );
-    this.load.spritesheet("frog", "assets/frog.png", consts.DEFAULT_TILE_SIZE );
-    this.load.spritesheet("cars", "assets/cars.png", consts.DEFAULT_TILE_SIZE );
-    this.load.spritesheet("death", "assets/death.png", consts.DEFAULT_TILE_SIZE );
-    this.load.spritesheet("turtle", "assets/turtle.png", consts.DEFAULT_TILE_SIZE );
+    this.load.image('background', 'docs/assets/background.jpeg');
+    this.load.image('goal', 'docs/assets/goal.png');
+    this.load.image('froggertitle', 'docs/assets/froggerTitle.png');
+    this.load.image('GameOverScreen', 'docs/assets/gameOverScreen.png');
+    this.load.image('RetryButton', 'docs/assets/RetryButton.png');
+    this.load.image('log1', 'docs/assets/log1.png');
+    this.load.image('log2', 'docs/assets/log2.png');
+    this.load.image('log3', 'docs/assets/log3.png');
+    this.load.image('life', 'docs/assets/life.png');
+    this.load.image('bug_goal', 'docs/assets/bug_goal.png');
+    this.load.image("truck", "docs/assets/truck.png");
+    this.load.spritesheet("ladybug", "docs/assets/ladybug.png", consts.DEFAULT_TILE_SIZE );
+    this.load.spritesheet("frog", "docs/assets/frog.png", consts.DEFAULT_TILE_SIZE );
+    this.load.spritesheet("cars", "docs/assets/cars.png", consts.DEFAULT_TILE_SIZE );
+    this.load.spritesheet("death", "docs/assets/death.png", consts.DEFAULT_TILE_SIZE );
+    this.load.spritesheet("turtle", "docs/assets/turtle.png", consts.DEFAULT_TILE_SIZE );
 
 
     consts.CANVAS.WIDTH = game.canvas.width
